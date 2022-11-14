@@ -1,0 +1,76 @@
+# apiVersion: v1
+# kind: Secret
+# metadata:
+#   name: todo-app-secret
+# type: kubernetes.io/dockerconfigjson
+# data:
+#   .dockerconfigjson: ewoJImF1dGhzIjogewoJCSIwMzY3MjQ1ODI2MTcuZGtyLmVjci5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20iOiB7CgkJCSJhdXRoIjogIlFWZFRPbVY1U25kWldHeHpZakpHYTBscWIybFhiVlpxVmtad00xcEdjRTVhUmxweFlteG9jVlJWUm1oaVIzQnVUa000Y21OcVZsRk9XRXA2V2tSR1NXSlRPVEJUVjNCelkzcGFSR1F6WTNwaE1sWjNZbGhHUWxveWRFSk1NRTV2WVRBMWQxTnJhRzlSYW1SU1ZYcGtkRlV4U25kV1ZVNXJZVlJzTlZSR1NrMVdWV3hRVlVoUmVWTlZjRWRqYmxKTldsUnNlV05GYUVwTk1GSldXVzE0V0ZGdE1YQldWazVLVXpGU05HVkdRa3RPTUhNeFUwZEtibEZZU2tWV1YyeFdXVE5zZUdKdVJuVldNREV4Vm01R2IyTXlWbGRpVlVsNlZHeG5NRlZxVm5KaFZFcEtXbFJvUkUxWE9WWlZiRUkyVGpKc1ExZHRVbWhoYkZKeldtcFNXbFo2YkRSTk0xWTFWREZ3WVZWSFVtcFZNRkZ5WTJ0bmVWSkhlRmRoUlRsSFkxaEZOR0o2Vm5sWFJteFlWMnBLZFZkdE5XOUxNamd6VWxWR1dWZFhhRWxOTUVwT1VsaEtiV05GVG01YU0zQklWVzVzYVZSV1NYWldXRlpQVVd4R1UxcFhiR2xVYXprMVZGVjRlRkY2V2twWFJGSnRWa1YwZG1Fd09XeFZiRUpDVjJ0U2JXRjVPVVJTYWs1MVltdGtkRmx1V2toVVJrNU1UVlpyTTFReVRsZFdWMHBhVjFjMWJtRXhaRWROVjJSMFVrYzFRbFZ0VWtaamJrNU5WRVU1ZG1JeGNIVlhTRUpyVjJwU1MxbDZUbUZMTVZwV1dsWk9NVlZzUlhwa2EwNVhWRlV3TTJGV1RrbGFWRkpIVTBka1ZsWXdiRXBNTWtaTFZVWldWVll6UWs5WFZtaDVXbWwwY2xKNmJFZE9NakZPWWxoV2MyRnNXVFZTTTJSNFl6RkpNRlpIY0ZsbFZrcFJWVVJDTmxGcWJFcFdNRVl6WW01Q2VHSnNTa1pWYkZsNldWaFdjazFyT1VwVmFrRXlZekZzYWsxRVJuaGtWR1J0WWxkR05WTlVZM0pNTTBveVZESXhOR0pWT1hOTlZXUTJXakJuTWxvelozSldla0pxWXpGU1RsTldaR3hoYkdSNFlsVTFVVlZHY0VkVWFtaDNVVmMxZG1WRVFrZGtWbHAwWVVob1dHVkVRazFVYXpWUFlXNWFTbUV6V1RCamFrNTFUakZDY0ZremNFZGFWMUpRV1RCR2VWZEhaRUpVTVZsNlkwVTVjbVZXUWxaamFUbHFWbFphUlZreGFGRkxlbWR5VGpOYWVXUkhWbmhaTURFMlRVVjRUbU13U2xwTlJsWXpXa1JvTkU5R2NIbGFiRXBQV2pKNGJtSllZelJsUkVwVldraGFSV0ZFYkU1amJXeGFZV3hhVlZvd2JGaGtXRVpXVWtkYWRXRXlSakJaYVhSWFV6QTBORlpJUWtsak1VNUdZVEJrYVdKc2JFbExNVXBYVGpGQ05GWkRPRFJVZW1oMVdXeFdNVlZ0WkdsWFJ6bDFVVmM1YmxWcmFGbGpWRnBoVmpCNGRtTklWbGxrUlRrMFZsVlNlbVJZUlRSVk1rVnlWbTE0VWxWdWJHRmpSVlphVGtVNVYxRXhhR0ZVUms0eVZGWkNOR013TVd0TlYyeDBWRlJqZDFWSE9YQmpNRFUwVlZSYWRsVllRakJYYkVwQ1N6RnNObU5JV2xWYWJrMDFaVVJHYjJOWVZUTk5XRlV4WTIxb05tUnNVbk5sUmtrMFZWVnNWbFpJYXpOa1ZHeHRUMVZhTTAxSVdURlJNRTVyVFcxT2JHRlZNWGxoUXpreVUydEtWVmRxYUUxU1IzUkZXbTV2ZDFSVVpIUmhiVlV5VkVST1ZtTnBjM2hNTUdjMVRWTjBRbEZ0ZUc1U2FYUnRVbGhzYWs5RWFFdGhSWEJFVjBaV2FGUnFUbUZUYmtKYVZsZEtkbUl6Y0RCWmJGRXlaRzVGZGxkVVJtaGhiV3R5VWxWemVWWXpVWGhPUlhSelVrUnNNVTR3Um5oa01qbERUREJLUTJSSFJtaFNiWGhSVjIxS05GZFhVbFpqYlU1elYwVk9iRlZzV2xOUk1FbHlWRmhXU0ZNeVNscGFWM0IxWVVaV2VFc3pTa3RhYlRFMVZqRk9UVk5GVFhkaE1YQllXa1JTTW1KdGQzbFhWR1JDVjI1R2RXRjZSblJXTVZwUFVXNUtVMWRITlZsaVdHUlVUMGRXVGt0NldsbFhhMlJJVFdwa1ZXSllSa2hYUmtKWllXdFNVMlZ1UVhkUk0xWkNTekE1YTFOR1NtdFJhMnhTVTJ0bk1sRXdOSHBoTTBVMVdtMXdkVmRJUWtOTldFRjNXVlpvTW1ONlpIcGFNMXBZVldsemFVeERTbXRaV0ZKb1lUSldOVWxxYjJsUlZrWktVV3RHU1dGVmFGaFpWbXhWWW14S1ZsWXdUbWxpYm05eVRqQjRNbFJWWTNKUlZrSXlWa1ZvTmxOSGVFTldWa1UxVW01R1JtSldXWGxPYTBwclpETmtSbUpVYkZSWldHUlFXVE5HUTFadGFIWlZWbVJJWlZWek0xWlVUbXhSVlVaQ1VWZGFjVkZxYUVOYU1uUjRZVWQwY0ZKNmJETk5SVXBEWkRKR2JsbHVjRU5rUlVadVVsVkdUbEl5WkVoUk1VNTRVakZPU2xscVRrVlZWVlpKVVZaU1FscFZTbTVpUjJSdllUSmtRMWRzUms1U1ZVWlVUa2hrUmxWV1JrNVdSa2t6VG0xT2RtRlZSbTFVYTFKMFlVaG9XVm93Um01U1ZrWnVVa2hTVGxJelJsbGxSR3hZV2xkMFlVMVdiRE5TTUhCeVVXMUtkbE5GT1ZaT1ZGSjNZMnh3YVZWV2JGbFRNblJKWkRCR1ZtUnFWbmxqYTBwdFdUSkZkMDFFU2xSWk1GcHRUV3hLU0ZZeFFsbGxSRlpRV2tSU05sTjZSbHBOVlZadFkydHdXbE5yYkc5aE0zQXpVRlF3YVV4RFNqSmFXRXA2WVZjNWRVbHFiMmxOYVVselNXNVNOV05IVldsUGFVcEZVVlpTUWxnd2RFWlhVMGx6U1cxV05HTkhiSGxaV0ZKd1lqSTBhVTlxUlRKT2FtTTBUbFJqZVUxcWJEaz0iCgkJfQoJfQp9
+# ---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-app
+  labels:
+    app: todo-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: todo-app
+  template:
+    metadata:
+      labels:
+        app: todo-app
+    spec:
+      containers:
+      - name: todo-app
+        image: 036724582617.dkr.ecr.ap-south-1.amazonaws.com/django_todo:latest
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-app-service
+  annotations:    
+#Important Note:  Need to add health check path annotations in service level if we are planning to use multiple targets in a load balancer    
+    alb.ingress.kubernetes.io/healthcheck-path: /
+spec:
+  type: NodePort
+  selector:
+    app: todo-app
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 8000
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: todo-app-ingress
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/healthcheck-protocol: HTTP 
+    alb.ingress.kubernetes.io/healthcheck-port: traffic-port
+    alb.ingress.kubernetes.io/healthcheck-interval-seconds: '15'
+    alb.ingress.kubernetes.io/healthcheck-timeout-seconds: '5'
+    alb.ingress.kubernetes.io/success-codes: '200'
+    alb.ingress.kubernetes.io/healthy-threshold-count: '2'
+    alb.ingress.kubernetes.io/unhealthy-threshold-count: '2'
+spec:
+  # ingressClassName: alb
+  rules:
+  - http:
+      paths:
+      - path: "/"
+        pathType: Prefix
+        # pathType: ImplementationSpecific
+        backend:
+          service:
+            name: todo-app-service
+            port: 
+              number: 80
